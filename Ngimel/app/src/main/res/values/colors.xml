@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- light colors -->
+    <color name="light_color_primary">#2979ff</color>
+    <color name="light_color_accent">#f50057</color>
+    <color name="light_backgrouynd_color">#fcfcfc</color>
+    <color name="light_card_background_color">#ffffff</color>
+    <color name="light_text_color_primary">#333333</color>
+    <color name="light_text_color_secondary">#666666</color>
+    <color name="light_stroke_color">#6d222222</color>
+    
+    <!-- dark colors -->
+    <color name="dark_color_primary">#2979ff</color>
+    <color name="dark_color_accent">#f50057</color>
+    <color name="dark_backgrouynd_color">#191919</color>
+    <color name="dark_card_background_color">#2b2b2b</color>
+    <color name="dark_text_color_primary">#fafafa</color>
+    <color name="dark_text_color_secondary">#c5c5c5</color>
+    <color name="dark_stroke_color">#6dcccccc</color>
+</resources>

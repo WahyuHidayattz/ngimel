@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeLight" parent="Base.ThemeLight">
+        <item name="android:navigationBarColor">@color/light_backgrouynd_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="ThemeDark" parent="Base.ThemeDark">
+        <item name="android:navigationBarColor">@color/dark_backgrouynd_color</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.Ngimel">
+        <item name="android:navigationBarColor">@color/light_color_primary</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

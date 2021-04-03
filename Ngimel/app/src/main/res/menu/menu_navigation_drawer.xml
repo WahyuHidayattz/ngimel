@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group_1">
+
+        <item
+            android:id="@+id/menu_biodata"
+            android:icon="@drawable/ic_outline_book_24"
+            android:title="Ubah Biodata" />
+
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/ic_outline_help_outline_24"
+            android:title="Bantuan" />
+
+    </group>
+
+    <group android:id="@+id/group_2">
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_outline_account_circle_24"
+            android:title="Tentang App" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@drawable/ic_outline_exit_to_app_24"
+            android:title="Keluar" />
+
+    </group>
+</menu>

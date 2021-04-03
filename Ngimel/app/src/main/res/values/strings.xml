@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ngimel</string>
+    <string-array name="help_text">
+        <item>Isi kolom body email dengan text / format email sesuai keinginan kamu,</item>
+        <item>Isi juga dengan variabel Biodata jika kamu ingin menambahkan Content body email dengan Biodata yang sudah tersimpan di aplikasi ini,</item>
+        <item>Variabel Biodata di tulis dengan format awalan dollar ($) :\nNama Lengkap = $nama\nUmur = $umur\nAlamat Lengkap = $alamat\nPendidikan = $pendidikan\nNomor Hp / Wa = $nomor_hp\nEmail = $email\nPerusahaan Tujuan = $perusahaan</item>
+        <item>Setelah selesai mengedit format yang kamu inginkan, sekarang tinggal tekan tombol Simpan Text, untuk menyimpan Custom Body Email kamu,</item>
+        <item>Jika ingin kembali ke Text Default (text bawaan) kamu cukup menekan tombol Reset Text</item>
+    </string-array>
+</resources>

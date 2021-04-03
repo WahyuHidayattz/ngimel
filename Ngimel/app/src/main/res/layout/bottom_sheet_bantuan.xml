@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_bantuan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:dividerVertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_button_close"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+           android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="2dp"
+            android:src="@drawable/ic_baseline_close_24"
+            app:tint="?android:textColorPrimary" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="5dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="?dividerVertical" />
+
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Bantuan"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Cara penggunaan Aplikasi Ngimel :\n\n1. Isi Biodata Lengkap,\n2. Setelah Biodata terisi semua, tekan tombol simpan biodata\n3. Setelah berhasil, kamu akan dialihkan ke Halaman Utama Ngimel,\n4. Lalu isi kolom Email Tujuan, Subject Email, Nama Perusahaan\n\nPengertian :\na. Email Tujuan adalah Alamat Email Perusahaan tujuan,\nb. Subject adalah subject email tersebut, contoh : Lamaran Pekerjaan,\nc. Perusahaan Tujuan adalah nama perusahaan yang akan kamu lamar melalu aplikasi Ngimel.\n\nSetelah semua langkah diatas terpenuhi anda tinggal klik tombol Refresh untuk memperbaharui Preview Text Email, dan selanjutnya kamu tinggal klik LANJUT KE EMAIL.\n\nTombol LANJUT KE EMAIL adalah tombol yang akan mengalihkan semua Tulisan beserta biodata pada apliaski Ngimel ke aplikasi Email Client, seperti : Gmail, dll."
+                android:textColor="?android:textColorSecondary"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
